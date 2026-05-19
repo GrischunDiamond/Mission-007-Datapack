@@ -11,8 +11,7 @@ execute as @e[type=armor_stand,tag=spawner,tag=executed] at @s if entity @p[dist
 execute as @e[type=armor_stand,tag=villager_spawner,tag=villager_spawn_executed] at @s if entity @p[distance=40..] unless entity @e[type=villager,distance=..20] run tag @s remove villager_spawn_executed
 
 # Enemies Angry Stufe
-execute as @a at @s if entity @e[tag=enemie,distance=..40] run function bond:enemies_angry_level
-
+execute as @a at @s if entity @e[tag=enemie,distance=..40] run function bond:spawner/enemies_angry_level
 
 
 
