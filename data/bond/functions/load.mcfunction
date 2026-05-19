@@ -7,6 +7,10 @@ scoreboard objectives add spokesperson dummy
 scoreboard objectives add kyra_dialog dummy
 scoreboard objectives add 007_dialog dummy
 
+scoreboard objectives add toogleSpawner trigger
+scoreboard objectives add findSpawner trigger
+
+
 
 
 

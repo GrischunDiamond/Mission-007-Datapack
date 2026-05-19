@@ -18,6 +18,6 @@ The follow the priciple only if you reach a certain reach the Mobs gets spawned
 
 You can get one with
 ``` bash
-
+/summon armor_stand ~ ~ ~ {CustomName:'{"text":"small_enemies_spawner"}',Tags:["small_enemies_spawner","spawner"],Invisible:1b}
 
 ```

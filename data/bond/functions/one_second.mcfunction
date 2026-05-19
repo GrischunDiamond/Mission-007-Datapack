@@ -14,6 +14,17 @@ execute as @e[type=armor_stand,tag=villager_spawner,tag=villager_spawn_executed]
 execute as @a at @s if entity @e[tag=enemie,distance=..40] run function bond:spawner/enemies_angry_level
 
 
+# TRIGGER
+# Trigger Toggle Spawner (Visible/Hidden)
+execute as @a[scores={toogleSpawner=1..}] at @s as @e[tag=spawner, type=armor_stand, distance=..5] run function bond:spawner/toggle_spawner
+scoreboard players reset @a toogleSpawner
+scoreboard players enable @a toogleSpawner
+
+# Trigger Find Spawner tempararly
+execute as @a[scores={findSpawner=1..}] at @s run function bond:spawner/find_spawner
+scoreboard players reset @a findSpawner
+scoreboard players enable @a findSpawner
+
 
 
 
