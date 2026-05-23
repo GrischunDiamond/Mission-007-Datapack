@@ -18,6 +18,7 @@ execute as @s at @s if entity @s[name=big_enemies_spawner_trap] run spreadplayer
 
 execute as @e[tag=enemie] at @s run tp @s ~ ~ ~
 
+scoreboard players add @s spawnedEnemies 1
 scoreboard players remove @s spawn_enemies 1
 
 
