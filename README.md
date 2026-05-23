@@ -16,8 +16,12 @@ The Datatapack has three different Sizes of a Enemiesspawner.
 The follow the priciple only if you reach a certain reach the Mobs gets spawned
 > This prevents World Overloading or Crashing
 
-You can get one with
+You can get every Spawner with this
 ``` bash
 /summon armor_stand ~ ~ ~ {CustomName:'{"text":"small_enemies_spawner"}',Tags:["small_enemies_spawner","spawner"],Invisible:1b}
+
+/summon armor_stand ~ ~ ~ {CustomName:'{"text":"medium_enemies_spawner"}',Tags:["medium_enemies_spawner","spawner"],Invisible:1b}
+
+/summon armor_stand ~ ~ ~ {CustomName:'{"text":"big_enemies_spawner"}',Tags:["big_enemies_spawner","spawner"],Invisible:1b}
 
 ```
